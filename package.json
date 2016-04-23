@@ -1,5 +1,5 @@
 {
-  "name": "presidential-stocks",
+  "name": "thecompanywekeep",
   "version": "1.0.0",
   "description": "Manage stocks and see presidential stocks",
   "main": "server/bootstrap.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janaipakos/presidential-stocks.git"
+    "url": "git+https://github.com/janaipakos/thecompanywekeep.git"
   },
   "keywords": [
     "angular2"
@@ -17,9 +17,9 @@
   "author": "James Anaipakos <janaipakos@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/janaipakos/presidential-stocks/issues"
+    "url": "https://github.com/janaipakos/thecompanywekeep/issues"
   },
-  "homepage": "https://github.com/janaipakos/presidential-stocks#readme",
+  "homepage": "https://github.com/janaipakos/thecompanywekeep#readme",
   "dependencies": {
     "angular2": "2.0.0-alpha.44",
     "express": "4.13.1",
