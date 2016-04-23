@@ -26,10 +26,9 @@ import {Manage} from './manage';
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Stock Tracker</span>
+          <a class="mdl-navigation__link" [router-link]="['/Dashboard']">Personal Dashboard</a>
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link" [router-link]="['/Dashboard']">Personal Dashboard</a>
           <a class="mdl-navigation__link" [router-link]="['/Clinton']">Clinton</a>
           <a class="mdl-navigation__link" [router-link]="['/Sanders']">Sanders</a>
           <a class="mdl-navigation__link" [router-link]="['/Trump']">Trump</a>
